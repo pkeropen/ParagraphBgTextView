@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParagraphBgColorTextView">
+        <attr name="paragraphBgColor" format="color" />
+    </declare-styleable>
+</resources>

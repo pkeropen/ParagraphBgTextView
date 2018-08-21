@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ParagraphBgColorTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="cn.vita.widget.demo.demo.MainActivity">
+
+    <cn.vita.widget.paragraphbgtextview.ParagraphBgTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        android:textSize="18sp"
+        android:text="窗前明月光\n疑似地下霜\n举头望明月\n低头思故乡"
+        ParagraphBgColorTextView:paragraphBgColor="#FF0000" />
+
+
+</LinearLayout>
